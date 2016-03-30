@@ -14,3 +14,21 @@ p linear_search(20, random_numbers)
 
 p linear_search(29, random_numbers)
 
+
+
+def global_linear_search(char, array)
+   i = 0
+   index = []
+  while i < array.count 
+    if  array[i] == char 
+      index << i
+    end
+    i += 1
+  end
+  index 
+end
+
+arr = "entretenerse".split('')
+
+p global_linear_search("e", arr)
+
